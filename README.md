@@ -1,4 +1,4 @@
-﻿# sciprog_24
+﻿# Practical 2
 
 In Conversion - Copy.c file, decimal numbers (int) are converted to float and binary. In the code, the value 33554431 is used as int, converted to float as fnum, and binary as binnum. The number of digits in the binary number is also counted.
 
