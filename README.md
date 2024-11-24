@@ -5,4 +5,4 @@ In practical4.c, tan(x) for x in [0, 60] is found, every 5 degrees. A function i
 - the list of tan(x) values with their radians, and
 - the area under the curve for the integral evaluated between 0 and 60 degrees.
 
-"-lm" needs to be added to the compilation code to run.
+"-lm" needs to be added to the compilation code to run as it uses <math.h>; i.e. use "gcc -o practicalx practicalx.c -lm" to run.
