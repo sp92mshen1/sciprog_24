@@ -4,27 +4,23 @@
 
  All codes are written in C, and can be compiled using "gcc -o practicalx practicalx.c". Codes that use the <math.h> library has asterisks (**) below; add "-lm" to the compilation code to run. Brief summaries for the goals and techniques taught for each practical exercises are provided.
 
- Practical 2: 
+ ** Practical 2: USES <math.h> and NEEDS "-lm" at the end of the COMPILATION CODE to RUN!
 
  - Sum.c : Finding the sum of 1 + 1/2 + 1/3 + ... + 1/1000
  - Conversion - Copy.c : Converting an integer number to float, decimal number to binary, and calculating number of digits in the binary number
-** USES <math.h> and NEEDS "-lm" at the end of the COMPILATION CODE to RUN!
 
-Practical 3:
+** Practical 3: USES <math.h> and NEEDS "-lm" at the end of the COMPILATION CODE to RUN!
 
 - practical3.c: Finding area under the curve for tan(x) in the range [0, pi/3], using the Trapezoidal approximation.
-** USES <math.h> and NEEDS "-lm" at the end of the COMPILATION CODE to RUN!
 
-Practical 4: 
+** Practical 4: USES <math.h> and NEEDS "-lm" at the end of the COMPILATION CODE to RUN!
 
 - practical4.c: Writing functions to compute Trapezoidal area and convert degrees to radians. Finds the tan(x) values for x in range [0, 60] per 5 degrees. Uses loops to create the required degrees in range and perform calculations on each degree.
-** USES <math.h> and NEEDS "-lm" at the end of the COMPILATION CODE to RUN!
 
-Practical 5:
+** Practical 5: USES <math.h> and NEEDS "-lm" at the end of the COMPILATION CODE to RUN!
 
 - practical5_1.c: Takes user input for n to calculate n numbers of the Fibonacci sequence. Uses loops, functions, and changing values to compute sequence.
 - practical5_2.c: Takes user input for delta to stop infinite McLaurin series with delta as the lower bound value. Calculates arctan(x) for [-0.90, 0.90] per 0.01 for two methods: McLaurin series and natural logarithm. Both methods are used and compared via their mean difference for every x value.
-** USES <math.h> and NEEDS "-lm" at the end of the COMPILATION CODE to RUN!
 
 Practical 6:
 
