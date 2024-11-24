@@ -69,7 +69,7 @@ int main(void){
   
   mean = mean_num / 180.0;
   
-  printf("Mean difference between the two methods: %.10f", mean);
+  printf("Mean difference between the two methods: %lf", mean);
   
   
   return 0;
