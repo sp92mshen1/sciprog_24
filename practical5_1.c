@@ -36,30 +36,6 @@ int main(void){
   
   }
   
-  float delta;
-  printf("Input real positive number delta (e.g. 2.0):");
-  scanf("%f", &delta);
-  
-  float artanh1(float x){
-    
-    float n = -1.0;
-    float series =0;
-    float numerator, denominator;
-    float element = 0;
-    while (element < delta){
-      n = n+1.0;
-      numerator = pow(x, (2.0*n + 1.0));
-      denominator = 2.0*n + 1.0;
-      element = numerator / denominator;
-      series = series + element;
-      
-      
-      }
-    
-    printf("Series stopped at: %f\n", element); 
-    printf("arctanh(x) = %f", series);
-  }
-  
   
 
   return 0;
